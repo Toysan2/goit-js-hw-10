@@ -1,18 +1,10 @@
 .hidden {
   display: none;
 }
-
-.visible {
-  display: block;
+.slimselect {
+  width: 300px;
+  margin-bottom: 20px;
 }
-.container {
-  width: 350px;
-  height: 350px;
-  border-radius: 105px;
-  top: 200px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-black);
+.error {
+  display: none;
 }

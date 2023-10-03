@@ -3,35 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <title>Homework 10</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/cat-loader.css" />
   </head>
   <body>
-    <div class="cat" style="display: none">
-      <div class="ear ear--left"></div>
-      <div class="ear ear--right"></div>
-      <div class="face">
-        <div class="eye eye--left">
-          <div class="eye-pupil"></div>
-        </div>
-        <div class="eye eye--right">
-          <div class="eye-pupil"></div>
-        </div>
-        <div class="muzzle"></div>
-      </div>
-    </div>
-    <div class="center-container">
-      <select id="breed-select" class="breed-select"></select>
-    </div>
-
-    <p class="loader hidden">Loading data, please wait...</p>
-    <p class="error hidden">
-      Oops! Something went wrong! Try reloading the page!
-    </p>
-    <div class="cat-image-frame hidden">
-      <div id="cat-image-container"></div>
-    </div>
+    <select class="breed-select"></select>
+    <p class="loader">Loading data, please wait...</p>
+    <p class="error">Oops! Something went wrong! Try reloading the page!</p>
     <div class="cat-info"></div>
 
     <script src="./js/index.js" type="module"></script>
