@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAGA;;;;;AAIA","sources":["src/css/styles.css"],"sourcesContent":[".hidden {\r\n  display: none;\r\n}\r\n.slimselect {\r\n  width: 300px;\r\n  margin-bottom: 20px;\r\n}\r\n.error {\r\n  display: none;\r\n}\r\n"],"names":[],"version":3,"file":"index.77a9bc14.css.map","sourceRoot":"/__parcel_source_root/"}
